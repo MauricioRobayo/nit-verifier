@@ -1,6 +1,6 @@
-# NIT VERIFIER ✅
+# NIT Verifier ☑️
 
-Blazing fast, ultra-light, minimal, dependency-free, tree-shakeable, battle-tested, types included, no-bullshit, Colombian NIT verifier.
+Blazing fast, ultra-light, minimal, dependency-free, tree-shakeable, battle-tested, types included, reliable, Colombian NIT verifier.
 
 ```
 npm i nit-verifier
@@ -10,11 +10,11 @@ npm i nit-verifier
 
 ```
 getVerificationDigit("860.069.804")
-// => 2
+// 2
 ```
 
-Check the extensive test cases for more uses.
+Check the extensive [test cases](./index.test.js) for more uses.
 
 ## Verification algorithm
 
-It uses DIAN's module-11 algorithm to generate the verification number for any given NIT.
+It uses the undocumented DIAN's `module-11` algorithm to generate the verification number for any given NIT.
