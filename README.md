@@ -17,4 +17,4 @@ Check the extensive [tests](./index.test.js) for more uses cases.
 
 ## Verification algorithm
 
-It uses the undocumented DIAN's `module-11` algorithm to generate the verification number for any given NIT.
+It uses the undocumented DIAN's `module-11` algorithm to generate the verification digit for any given NIT.
