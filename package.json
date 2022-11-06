@@ -15,9 +15,6 @@
   ],
   "author": "Mauricio Robayo <rfmajo@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
-    "jest": "^29.2.2"
-  },
   "files": [
     "index.js",
     "index.d.ts"
