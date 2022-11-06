@@ -1,0 +1,25 @@
+{
+  "name": "nit-verifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "keywords": [
+    "nit",
+    "dian",
+    "rut",
+    "dígito de verificación",
+    "número de identificación tributario"
+  ],
+  "author": "Mauricio Robayo <rfmajo@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.2.2"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ]
+}
