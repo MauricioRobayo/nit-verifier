@@ -7,5 +7,5 @@ exports.getVerificationDigit = function (nit) {
     total = total + Number(nitArray[i]) * constants[arrLen - i - 1];
   }
   const mod = total % 11;
-  return 11 - mod;
+  return mod <= 1 ? mod : 11 - mod;
 };
