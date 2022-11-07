@@ -1,5 +1,9 @@
 # NIT Verifier ☑️
 
+[![npm version](https://badge.fury.io/js/nit-verifier.svg)](https://badge.fury.io/js/nit-verifier)
+![10x faster](https://img.shields.io/badge/10x-faster-brightgreen)
+![10x smaller](https://img.shields.io/badge/10x-smaller-brightgreen)
+
 Blazing fast, ultra-light, minimal, dependency-free, tree-shakeable, battle-tested, types included, reliable, Colombian NIT verifier.
 
 ```
