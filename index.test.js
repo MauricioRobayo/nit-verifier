@@ -1,4 +1,4 @@
-const { getVerificationDigit } = require(".");
+import { getVerificationDigit } from "./index.js";
 
 const tests = [
   [900491889, 0],

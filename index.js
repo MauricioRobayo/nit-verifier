@@ -1,4 +1,4 @@
-exports.getVerificationDigit = function (nit) {
+export function getVerificationDigit(nit) {
   const constants = [3, 7, 13, 17, 19, 23, 29, 37, 41, 43, 47, 53, 59, 67, 71];
   const nitArray = Array.from(String(nit).replace(/\D/g, ""));
   const arrLen = nitArray.length;
@@ -8,4 +8,4 @@ exports.getVerificationDigit = function (nit) {
   }
   const mod = total % 11;
   return mod <= 1 ? mod : 11 - mod;
-};
+}
