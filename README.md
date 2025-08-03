@@ -17,7 +17,7 @@ getVerificationDigit("860.069.804")
 // 2
 ```
 
-Check the extensive [tests](./index.test.js) for more uses cases.
+Check the [tests](./index.test.js) for more uses cases.
 
 ## Verification algorithm
 
